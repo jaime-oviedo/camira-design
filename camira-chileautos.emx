@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<!--Rational Software Architect Designer 9.6.1-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.model" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:JavaTransformation50="http:///schemas/JavaTransformation50/_znHmkE3YEd-tPpJR7OP4Bg/34" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xsi:schemaLocation="http:///schemas/JavaTransformation50/_znHmkE3YEd-tPpJR7OP4Bg/34 pathmap://TRANSFORM_JAVA5_PROFILES/JavaTransformProfile.epx#_znahgE3YEd-tPpJR7OP4Bg?JavaTransformation5.0/JavaTransformation50?">
+  <uml:Package xmi:id="_DnC7AJNdEeeyu_ZR04zubg" name="camira-chileautos">
+    <eAnnotations xmi:id="_DnC7AZNdEeeyu_ZR04zubg" source="uml2.diagrams" references="_DnC7ApNdEeeyu_ZR04zubg">
+      <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_DnC7ApNdEeeyu_ZR04zubg" type="Component" name="Main"/>
+    </eAnnotations>
+    <eAnnotations xmi:id="_DnC7A5NdEeeyu_ZR04zubg" source="com.ibm.xtools.common.ui.reduction.editingCapabilities">
+      <details xmi:id="_DnC7BJNdEeeyu_ZR04zubg" key="com.ibm.xtools.activities.umlBBClassDiagram" value="1"/>
+      <details xmi:id="_DnC7BZNdEeeyu_ZR04zubg" key="com.ibm.xtools.activities.umlBBComponentDiagram" value="1"/>
+      <details xmi:id="_DnC7BpNdEeeyu_ZR04zubg" key="com.ibm.xtools.activities.umlBBFreeFormDiagram" value="1"/>
+      <details xmi:id="_DnC7B5NdEeeyu_ZR04zubg" key="com.ibm.xtools.activities.umlBBSequenceDiagram" value="1"/>
+      <details xmi:id="_DnC7CJNdEeeyu_ZR04zubg" key="com.ibm.xtools.activities.umlBBClass" value="1"/>
+      <details xmi:id="_DnC7CZNdEeeyu_ZR04zubg" key="com.ibm.xtools.activities.umlBBClassTemplateParameter" value="1"/>
+      <details xmi:id="_DnC7CpNdEeeyu_ZR04zubg" key="com.ibm.xtools.activities.umlBBComment1" value="1"/>
+      <details xmi:id="_DnC7C5NdEeeyu_ZR04zubg" key="com.ibm.xtools.activities.umlBBComment2" value="1"/>
+      <details xmi:id="_DnC7DJNdEeeyu_ZR04zubg" key="com.ibm.xtools.activities.umlBBEvent1" value="1"/>
+      <details xmi:id="_DnC7DZNdEeeyu_ZR04zubg" key="com.ibm.xtools.activities.umlBBEvent2" value="1"/>
+      <details xmi:id="_DnC7DpNdEeeyu_ZR04zubg" key="com.ibm.xtools.activities.umlBBFunction" value="1"/>
+      <details xmi:id="_DnC7D5NdEeeyu_ZR04zubg" key="com.ibm.xtools.activities.umlBBFunctionTemplateParameter" value="1"/>
+      <details xmi:id="_DnC7EJNdEeeyu_ZR04zubg" key="com.ibm.xtools.activities.umlBBInterface" value="1"/>
+      <details xmi:id="_DnC7EZNdEeeyu_ZR04zubg" key="com.ibm.xtools.activities.umlBBInterfaceTemplateParameter" value="1"/>
+      <details xmi:id="_DnC7EpNdEeeyu_ZR04zubg" key="com.ibm.xtools.activities.umlBBLifeLine" value="1"/>
+      <details xmi:id="_DnC7E5NdEeeyu_ZR04zubg" key="com.ibm.xtools.activities.umlBBPackage" value="1"/>
+      <details xmi:id="_DnC7FJNdEeeyu_ZR04zubg" key="com.ibm.xtools.activities.umlBBPackageTemplateParameter" value="1"/>
+      <details xmi:id="_DnC7FZNdEeeyu_ZR04zubg" key="com.ibm.xtools.activities.umlBBRealization" value="1"/>
+      <details xmi:id="_DnC7FpNdEeeyu_ZR04zubg" key="com.ibm.xtools.activities.umlBBRelationship1" value="1"/>
+      <details xmi:id="_DnC7F5NdEeeyu_ZR04zubg" key="com.ibm.xtools.activities.umlBBRelationship2" value="1"/>
+      <details xmi:id="_DnC7GJNdEeeyu_ZR04zubg" key="com.ibm.xtools.activities.umlBBSequence1" value="1"/>
+      <details xmi:id="_DnC7GZNdEeeyu_ZR04zubg" key="com.ibm.xtools.activities.umlBBSequence2" value="1"/>
+      <details xmi:id="_DnC7GpNdEeeyu_ZR04zubg" key="com.ibm.xtools.activities.umlBBSignal" value="1"/>
+      <details xmi:id="_DnC7G5NdEeeyu_ZR04zubg" key="com.ibm.xtools.activities.umlBBSubsystem" value="1"/>
+      <details xmi:id="_DnC7HJNdEeeyu_ZR04zubg" key="com.ibm.xtools.activities.umlBBComponent" value="1"/>
+      <details xmi:id="_DnC7HZNdEeeyu_ZR04zubg" key="com.ibm.xtools.activities.umlBBDependancy" value="1"/>
+      <details xmi:id="_DnC7HpNdEeeyu_ZR04zubg" key="com.ibm.xtools.activities.umlBBTypes1" value="1"/>
+      <details xmi:id="_DnC7H5NdEeeyu_ZR04zubg" key="com.ibm.xtools.activities.umlBBUsage" value="1"/>
+      <details xmi:id="_DnC7IJNdEeeyu_ZR04zubg" key="com.ibm.xtools.activities.umlBBStereotypedClass" value="1"/>
+      <details xmi:id="_LoIi8JNlEeeyu_ZR04zubg" key="com.ibm.xtools.activities.javaVisualizerActivity" value="1"/>
+    </eAnnotations>
+    <packageImport xmi:id="_DnDiEJNdEeeyu_ZR04zubg">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packageImport xmi:id="__K_CkJNgEeeyu_ZR04zubg">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="__L8r4JNgEeeyu_ZR04zubg" name="util">
+      <packagedElement xmi:type="uml:Class" xmi:id="__L8r4ZNgEeeyu_ZR04zubg" name="AvailableBrandsExtractor">
+        <ownedAttribute xmi:id="__MCygJNgEeeyu_ZR04zubg" name="log" visibility="private" isStatic="true">
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.util.logging.Logger%5Bproject%5Eid=camira-chileautos%5D$uml.Class"/>
+          <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="__MEnsJNgEeeyu_ZR04zubg">
+            <language></language>
+            <body>Logger.getLogger(&quot;com.ingenium.camira.retrieval.bot.chileautos.AvailableBrandsExtractor&quot;)</body>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedOperation xmi:id="__MI5IJNgEeeyu_ZR04zubg" name="AvailableBrandsExtractor" visibility="public"/>
+        <ownedOperation xmi:id="__MJgMJNgEeeyu_ZR04zubg" name="extractAvailableBrands" visibility="public">
+          <ownedParameter xmi:id="__MJgMZNgEeeyu_ZR04zubg" name="ReturnParameter" isOrdered="true" isUnique="false" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__MKHQJNgEeeyu_ZR04zubg" value="*"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__MKuUJNgEeeyu_ZR04zubg"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="__MQ08JNgEeeyu_ZR04zubg" name="extractAndStoreAvailableBrands" visibility="public">
+          <ownedParameter xmi:id="__MRcAJNgEeeyu_ZR04zubg" name="ReturnParameter" isOrdered="true" isUnique="false" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__MRcAZNgEeeyu_ZR04zubg" value="*"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__MRcApNgEeeyu_ZR04zubg"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="__MSqIJNgEeeyu_ZR04zubg" name="destinationPath">
+            <eAnnotations xmi:id="__MTRMJNgEeeyu_ZR04zubg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="__MTRMZNgEeeyu_ZR04zubg" key="final"/>
+            </eAnnotations>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_CrbDcJNhEeeyu_ZR04zubg" name="botView">
+      <eAnnotations xmi:id="_Crzd8JNhEeeyu_ZR04zubg" source="uml2.diagrams" references="_Cr0FAJNhEeeyu_ZR04zubg">
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_Cr0FAJNhEeeyu_ZR04zubg" type="Freeform" name="Main">
+          <children xmi:type="umlnotation:UMLShape" xmi:id="_eyzDcJVGEeeyu_ZR04zubg" element="_MncAoJNhEeeyu_ZR04zubg" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+            <children xmi:type="notation:DecorationNode" xmi:id="_eyzqgJVGEeeyu_ZR04zubg" type="ImageCompartment">
+              <layoutConstraint xmi:type="notation:Size" xmi:id="_eyzqgZVGEeeyu_ZR04zubg" width="1320" height="1320"/>
+            </children>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_eyzqgpVGEeeyu_ZR04zubg" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_eyzqg5VGEeeyu_ZR04zubg" type="Name"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_eyzqhJVGEeeyu_ZR04zubg" type="Parent"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_eyzqhZVGEeeyu_ZR04zubg" type="AttributeCompartment"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_eyzqhpVGEeeyu_ZR04zubg" type="OperationCompartment"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_ey0RkJVGEeeyu_ZR04zubg" visible="false" type="SignalCompartment"/>
+            <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_ey0RkZVGEeeyu_ZR04zubg" visible="false" type="StructureCompartment"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eyzDcZVGEeeyu_ZR04zubg" x="10692" y="14256"/>
+          </children>
+          <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_gFc-IJVGEeeyu_ZR04zubg" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label" useClassifierShape="true">
+            <children xmi:type="notation:DecorationNode" xmi:id="_gFdlMJVGEeeyu_ZR04zubg" type="ImageCompartment">
+              <layoutConstraint xmi:type="notation:Size" xmi:id="_gFdlMZVGEeeyu_ZR04zubg" width="530" height="530"/>
+            </children>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_gFdlMpVGEeeyu_ZR04zubg" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_gFdlM5VGEeeyu_ZR04zubg" type="Kind"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_gFdlNJVGEeeyu_ZR04zubg" type="Name"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_gFeMQJVGEeeyu_ZR04zubg" type="Parent"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_gFeMQZVGEeeyu_ZR04zubg" type="AttributeCompartment"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_gFeMQpVGEeeyu_ZR04zubg" type="OperationCompartment"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_gFezUJVGEeeyu_ZR04zubg" visible="false" type="SignalCompartment"/>
+            <element xmi:type="uml:Interface" href="camira-base-bot.emx#_KeEgYJNhEeeyu_ZR04zubg?camira-base-bot/botView/SearchPageBotView?"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gFc-IZVGEeeyu_ZR04zubg" x="11033" y="5688"/>
+          </children>
+          <element xsi:nil="true"/>
+          <edges xmi:type="umlnotation:UMLConnector" xmi:id="_gFfaYJVGEeeyu_ZR04zubg" element="_7UVkUJNkEeeyu_ZR04zubg" source="_eyzDcJVGEeeyu_ZR04zubg" target="_gFc-IJVGEeeyu_ZR04zubg" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+            <children xmi:type="notation:DecorationNode" xmi:id="_gFfaYpVGEeeyu_ZR04zubg" type="NameLabel">
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_gFfaZJVGEeeyu_ZR04zubg" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_gFgBcJVGEeeyu_ZR04zubg" type="Name"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gFfaY5VGEeeyu_ZR04zubg" y="-186"/>
+            </children>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_gFfaYZVGEeeyu_ZR04zubg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+          </edges>
+        </contents>
+      </eAnnotations>
+      <packagedElement xmi:type="uml:Class" xmi:id="_MncAoJNhEeeyu_ZR04zubg" name="SearchPageBotViewImpl" clientDependency="_7UVkUJNkEeeyu_ZR04zubg">
+        <interfaceRealization xmi:id="_7UVkUJNkEeeyu_ZR04zubg" client="_MncAoJNhEeeyu_ZR04zubg">
+          <supplier xmi:type="uml:Interface" href="camira-base-bot.emx#_KeEgYJNhEeeyu_ZR04zubg?camira-base-bot/botView/SearchPageBotView?"/>
+          <contract href="camira-base-bot.emx#_KeEgYJNhEeeyu_ZR04zubg?camira-base-bot/botView/SearchPageBotView?"/>
+        </interfaceRealization>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_DtdIMJNhEeeyu_ZR04zubg" name="model">
+      <eAnnotations xmi:id="_DtdvQJNhEeeyu_ZR04zubg" source="uml2.diagrams" references="_DtdvQZNhEeeyu_ZR04zubg">
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_DtdvQZNhEeeyu_ZR04zubg" type="Freeform" name="Main">
+          <element xsi:nil="true"/>
+        </contents>
+      </eAnnotations>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_EeBpgJNhEeeyu_ZR04zubg" name="presenter">
+      <eAnnotations xmi:id="_EeBpgZNhEeeyu_ZR04zubg" source="uml2.diagrams" references="_EeBpgpNhEeeyu_ZR04zubg">
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_EeBpgpNhEeeyu_ZR04zubg" type="Freeform" name="Main">
+          <element xsi:nil="true"/>
+        </contents>
+      </eAnnotations>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_-Rj-IJVLEeeyu_ZR04zubg" name="bot">
+      <eAnnotations xmi:id="_-RklMJVLEeeyu_ZR04zubg" source="uml2.diagrams" references="_-RklMZVLEeeyu_ZR04zubg">
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_-RklMZVLEeeyu_ZR04zubg" type="Freeform" name="Main">
+          <element xsi:nil="true"/>
+        </contents>
+      </eAnnotations>
+      <packagedElement xmi:type="uml:Class" xmi:id="__L8r4pNgEeeyu_ZR04zubg" name="Constants">
+        <ownedAttribute xmi:id="__MT4QJNgEeeyu_ZR04zubg" name="vehicleTypes" visibility="public" isLeaf="true" isStatic="true" isOrdered="true" isUnique="false">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__MT4QZNgEeeyu_ZR04zubg" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__MT4QpNgEeeyu_ZR04zubg"/>
+          <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="__MVGYJNgEeeyu_ZR04zubg">
+            <language></language>
+            <body>ImmutableList.of(&quot;Todos&quot;,&quot;Acuáticos&quot;,&quot;Autos, camionetas y 4x4&quot;,&quot;Bicicletas&quot;,&quot;Buses&quot;,&quot;Camiones&quot;,&quot;Maquinarias&quot;,&quot;Motorhomes&quot;,&quot;Otros&quot;)</body>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="__MVGYZNgEeeyu_ZR04zubg" name="regions" visibility="public" isLeaf="true" isStatic="true" isOrdered="true" isUnique="false">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__MVtcJNgEeeyu_ZR04zubg" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__MVtcZNgEeeyu_ZR04zubg"/>
+          <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="__MW7kJNgEeeyu_ZR04zubg">
+            <language></language>
+            <body>ImmutableList.of(&quot;Antofagasta&quot;,&quot;Araucanía&quot;,&quot;Arica y Parinacota&quot;,&quot;Atacama&quot;,&quot;Aysén&quot;,&quot;Bío Bío&quot;,&quot;Coquimbo&quot;,&quot;Los Lagos&quot;,&quot;Los Ríos&quot;,&quot;Magallanes y Antártica Chilena&quot;,&quot;Maule&quot;,&quot;Metropolitana de Santiago&quot;,&quot;OHiggins&quot;,&quot;Tarapacá&quot;,&quot;Valparaíso&quot;)</body>
+          </defaultValue>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="__MW7kZNgEeeyu_ZR04zubg" name="brands" visibility="public" isLeaf="true" isStatic="true" isOrdered="true" isUnique="false">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__MW7kpNgEeeyu_ZR04zubg" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__MW7k5NgEeeyu_ZR04zubg"/>
+          <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="__MZX0JNgEeeyu_ZR04zubg">
+            <language></language>
+            <body>ImmutableList.of(&quot;Abat&quot;,&quot;Acadian&quot;,&quot;Acura&quot;,&quot;Adventure&quot;,&quot;Aerovan&quot;,&quot;Africa&quot;,&quot;Agrale&quot;,&quot;Agria&quot;,&quot;Agromaq&quot;,&quot;Agusta&quot;,&quot;AJS&quot;,&quot;Alfa Romeo&quot;,&quot;Allmand&quot;,&quot;Altec&quot;,&quot;Amazone&quot;,&quot;Ammann&quot;,&quot;Anderson Trailers&quot;,&quot;Antonio Carraro&quot;,&quot;Aprilia&quot;,&quot;APT&quot;,&quot;Aqualine&quot;,&quot;Arctic Cat&quot;,&quot;Aro&quot;,&quot;Artigiana&quot;,&quot;ASIA&quot;,&quot;Aston Martin&quot;,&quot;Atlas&quot;,&quot;Atlas Copco&quot;,&quot;ATV&quot;,&quot;AUDI&quot;,&quot;Ausa&quot;,&quot;Austin&quot;,&quot;Autorrad&quot;,&quot;Aventura&quot;,&quot;BAIC&quot;,&quot;Bajaj&quot;,&quot;Baldan&quot;,&quot;Barford&quot;,&quot;Barko&quot;,&quot;Bartell&quot;,&quot;Bashan&quot;,&quot;BAW&quot;,&quot;Bayliner&quot;,&quot;Beiben&quot;,&quot;Belarus&quot;,&quot;Benelli&quot;,&quot;Benford&quot;,&quot;Benneteau&quot;,&quot;Bentley&quot;,&quot;BMW&quot;,&quot;Bobcat&quot;,&quot;Bomag&quot;,&quot;Bombard&quot;,&quot;Bonluck&quot;,&quot;Breviglieri&quot;,&quot;Brilliance&quot;,&quot;BRP CAN-AM&quot;,&quot;Buell&quot;,&quot;Buggy&quot;,&quot;Buick&quot;,&quot;Busscar&quot;,&quot;BYD&quot;,&quot;Caburga&quot;,&quot;Cadillac&quot;,&quot;Caio&quot;,&quot;Caky&quot;,&quot;Can-Am&quot;,&quot;Canoa&quot;,&quot;Carmix&quot;,&quot;Case&quot;,&quot;Catalina&quot;,&quot;Caterpillar&quot;,&quot;CF Moto&quot;,&quot;CGB Trailer&quot;,&quot;Challenger&quot;,&quot;Champion&quot;,&quot;Chandler&quot;,&quot;Changan&quot;,&quot;Changlin&quot;,&quot;Chaparral&quot;,&quot;Chery&quot;,&quot;CHEVORLET&quot;,&quot;Chevrolet&quot;,&quot;Choice&quot;,&quot;Chris Craft&quot;,&quot;Chrysler&quot;,&quot;CITROEN&quot;,&quot;Claas&quot;,&quot;Coachmen&quot;,&quot;Cobalt&quot;,&quot;Coleman&quot;,&quot;Coloso&quot;,&quot;Comil&quot;,&quot;Compair&quot;,&quot;Craftsman&quot;,&quot;CRG&quot;,&quot;Cross&quot;,&quot;Crucero&quot;,&quot;Cukurova&quot;,&quot;Cummins&quot;,&quot;Daewoo&quot;,&quot;Daf&quot;,&quot;Daihatsu&quot;,&quot;Datsun&quot;,&quot;Demag&quot;,&quot;Deutz-Fahr&quot;,&quot;DFM&quot;,&quot;DFSK&quot;,&quot;Dimex&quot;,&quot;Dingli&quot;,&quot;Dingo&quot;,&quot;Divermaq&quot;,&quot;DKW&quot;,&quot;Dodge&quot;,&quot;Dongfeng&quot;,&quot;Doosan&quot;,&quot;Doyayama&quot;,&quot;DS&quot;,&quot;Ducar&quot;,&quot;DUCATI&quot;,&quot;E-One&quot;,&quot;Eager Beaver&quot;,&quot;Elho&quot;,&quot;Euromot&quot;,&quot;Europard&quot;,&quot;Exel&quot;,&quot;FACCHINI&quot;,&quot;Falc&quot;,&quot;Farmtrac&quot;,&quot;Fassi&quot;,&quot;Faw&quot;,&quot;Feri&quot;,&quot;Fernández&quot;,&quot;Ferrari&quot;,&quot;Fiat&quot;,&quot;Fiatallis&quot;,&quot;Fibermold&quot;,&quot;Fleewood&quot;,&quot;Ford&quot;,&quot;Forest River&quot;,&quot;Forway&quot;,&quot;Foton&quot;,&quot;Four Winns&quot;,&quot;Freightliner&quot;,&quot;Fruehauf&quot;,&quot;Fullcar&quot;,&quot;Fuso&quot;,&quot;GAC GONOW&quot;,&quot;GAC MOTOR&quot;,&quot;Gama&quot;,&quot;Garant Kotte&quot;,&quot;Gas Gas&quot;,&quot;Gaspardo&quot;,&quot;GEELY&quot;,&quot;Genie&quot;,&quot;Geo&quot;,&quot;Giant&quot;,&quot;Gilera&quot;,&quot;Glastron&quot;,&quot;GMC&quot;,&quot;Golden Dragon&quot;,&quot;Goldini&quot;,&quot;Goren&quot;,&quot;Great Dane&quot;,&quot;Great Wall&quot;,&quot;Gribaldi Salvia&quot;,&quot;Grimme&quot;,&quot;Grove&quot;,&quot;Guzzi&quot;,&quot;Hafei&quot;,&quot;Haima&quot;,&quot;Hamm&quot;,&quot;Hardi&quot;,&quot;Harley-Davidson&quot;,&quot;Haulotte&quot;,&quot;HAVAL&quot;,&quot;Heartland&quot;,&quot;Hechizo&quot;,&quot;Heli&quot;,&quot;Hidromek&quot;,&quot;Higer&quot;,&quot;Hino&quot;,&quot;Hisun&quot;,&quot;Hitachi&quot;,&quot;Hodar&quot;,&quot;HONDA&quot;,&quot;Honex&quot;,&quot;Howard&quot;,&quot;Huanghai - SG&quot;,&quot;Huatai&quot;,&quot;Hudson&quot;,&quot;Hummer&quot;,&quot;Hunter&quot;,&quot;Husaberg&quot;,&quot;Husqvarna&quot;,&quot;Hyosung&quot;,&quot;Hyster&quot;,&quot;Hyundai&quot;,&quot;Indian&quot;,&quot;Indusa&quot;,&quot;Infiniti&quot;,&quot;Ingersoll Rand&quot;,&quot;Inrecar&quot;,&quot;International&quot;,&quot;Invermoto&quot;,&quot;Irizar&quot;,&quot;Islander&quot;,&quot;Isuzu&quot;,&quot;Iveco&quot;,&quot;Ivesa&quot;,&quot;JAC&quot;,&quot;Jacto&quot;,&quot;JAGUAR&quot;,&quot;Jayco&quot;,&quot;JBC&quot;,&quot;JCB&quot;,&quot;Jeanneau&quot;,&quot;Jeep&quot;,&quot;JF&quot;,&quot;Jinbei&quot;,&quot;Jinlun&quot;,&quot;Jinma&quot;,&quot;JLG&quot;,&quot;JMC&quot;,&quot;John Deere&quot;,&quot;Jota Boats&quot;,&quot;Jumil&quot;,&quot;Jurmar&quot;,&quot;Kamaz&quot;,&quot;Kaufman&quot;,&quot;Kawasaki&quot;,&quot;Keeway&quot;,&quot;Kenworth&quot;,&quot;Keystone&quot;,&quot;KIA&quot;,&quot;King Long&quot;,&quot;Kinlon&quot;,&quot;Kobelco&quot;,&quot;Komatsu&quot;,&quot;Krone&quot;,&quot;KTM&quot;,&quot;Kubota&quot;,&quot;Kuhn&quot;,&quot;Kvernerland&quot;,&quot;Kymco&quot;,&quot;Lada&quot;,&quot;Lamborghini&quot;,&quot;Lambretta&quot;,&quot;Lancia&quot;,&quot;LAND ROVER&quot;,&quot;Landini&quot;,&quot;LANDWIND&quot;,&quot;Lemken&quot;,&quot;Lerpain&quot;,&quot;Lexus&quot;,&quot;Librelato&quot;,&quot;Liebherr&quot;,&quot;Lifan&quot;,&quot;Lifeng Group&quot;,&quot;Lihhai&quot;,&quot;Lincoln&quot;,&quot;Linde&quot;,&quot;Link-Belt&quot;,&quot;Liugong&quot;,&quot;LML&quot;,&quot;Loncin&quot;,&quot;Lonking&quot;,&quot;Lotus&quot;,&quot;MacGregor&quot;,&quot;Machile&quot;,&quot;Mack&quot;,&quot;Magirus Deutz&quot;,&quot;Mahindra&quot;,&quot;Malbec&quot;,&quot;Man&quot;,&quot;Manitou&quot;,&quot;Mapar&quot;,&quot;Mapel&quot;,&quot;Marchesan&quot;,&quot;Marcopolo&quot;,&quot;Mariah&quot;,&quot;Mariner&quot;,&quot;Mascarello&quot;,&quot;Maserati&quot;,&quot;Masmetal&quot;,&quot;Massey ferguson&quot;,&quot;Master Tow&quot;,&quot;Mastracchio&quot;,&quot;Maxibus&quot;,&quot;Maximal&quot;,&quot;Maxum&quot;,&quot;Maxus&quot;,&quot;Mazda&quot;,&quot;McLaren&quot;,&quot;Megelli&quot;,&quot;Mercedes Benz&quot;,&quot;Mercruiser&quot;,&quot;Mercury&quot;,&quot;Meridian&quot;,&quot;Metalpar&quot;,&quot;Metaltec&quot;,&quot;MG&quot;,&quot;Michigan&quot;,&quot;MINI&quot;,&quot;Mits&quot;,&quot;Mitsubishi&quot;,&quot;MJ&quot;,&quot;Monon&quot;,&quot;Monosem&quot;,&quot;Montenegro&quot;,&quot;Monterrey&quot;,&quot;Morris&quot;,&quot;Motar&quot;,&quot;Moto ABC&quot;,&quot;Motoguzzi&quot;,&quot;Motomel&quot;,&quot;Motorhome&quot;,&quot;Motorrad&quot;,&quot;MSK&quot;,&quot;Mussre&quot;,&quot;Mustang&quot;,&quot;MV Agusta&quot;,&quot;National Crane&quot;,&quot;Nautic&quot;,&quot;Nauticat&quot;,&quot;Nautisail&quot;,&quot;New Holland&quot;,&quot;Nissan&quot;,&quot;Nissan Cidef&quot;,&quot;Nissan Marubeni&quot;,&quot;Nordkapp&quot;,&quot;NSU&quot;,&quot;Oday&quot;,&quot;Oldsmobile&quot;,&quot;Opel&quot;,&quot;Oxford&quot;,&quot;Packard&quot;,&quot;Palfinger&quot;,&quot;Pegaso&quot;,&quot;Perforadora Lobos&quot;,&quot;PEUGEOT&quot;,&quot;PGO&quot;,&quot;Piaggio&quot;,&quot;Pilot&quot;,&quot;Pit Bike&quot;,&quot;PKM&quot;,&quot;Plymouth&quot;,&quot;PM&quot;,&quot;Polaris&quot;,&quot;Pontiac&quot;,&quot;PORSCHE&quot;,&quot;Pottinger&quot;,&quot;Pramac&quot;,&quot;Prentice&quot;,&quot;PROTON&quot;,&quot;Putzmeister&quot;,&quot;PYH&quot;,&quot;PZ&quot;,&quot;Quality Services Ltd&quot;,&quot;RAM&quot;,&quot;Randon&quot;,&quot;Range Rover&quot;,&quot;Ranger&quot;,&quot;Rauch&quot;,&quot;Regal&quot;,&quot;Regal Raptor&quot;,&quot;Remolques Tapia&quot;,&quot;RENAULT&quot;,&quot;Renault-Samsung&quot;,&quot;Robot&quot;,&quot;Rochel&quot;,&quot;Rockwood&quot;,&quot;ROLLS ROYCE&quot;,&quot;Rondini&quot;,&quot;Rotax&quot;,&quot;Rover&quot;,&quot;Royal Enfield&quot;,&quot;Saab&quot;,&quot;Sachs&quot;,&quot;Saleen&quot;,&quot;Same&quot;,&quot;Samsung&quot;,&quot;Sandvik&quot;,&quot;Sanlg&quot;,&quot;Sargent Agricola&quot;,&quot;Saturn&quot;,&quot;Scania&quot;,&quot;SDLG&quot;,&quot;Sea-Doo&quot;,&quot;Sea-Ray&quot;,&quot;SEAT&quot;,&quot;Semirigido&quot;,&quot;Shacman&quot;,&quot;Shangai&quot;,&quot;Shantui&quot;,&quot;Shelby&quot;,&quot;Shenyang&quot;,&quot;Shifeng&quot;,&quot;Simca&quot;,&quot;Sinotruck&quot;,&quot;Ski-Doo&quot;,&quot;Skoda&quot;,&quot;Skygo&quot;,&quot;SMA&quot;,&quot;Smart&quot;,&quot;Spitz&quot;,&quot;Sport Voad&quot;,&quot;Sportbas&quot;,&quot;Ssangyong&quot;,&quot;Standard&quot;,&quot;Stara&quot;,&quot;Starcraft RV&quot;,&quot;Sterling&quot;,&quot;Stingray&quot;,&quot;Strike&quot;,&quot;Studebaker&quot;,&quot;SUBARU&quot;,&quot;SULKY&quot;,&quot;Sullivan&quot;,&quot;Super Hawai&quot;,&quot;Super Products&quot;,&quot;Surco&quot;,&quot;SUZUKI&quot;,&quot;SYM&quot;,&quot;Tahoe&quot;,&quot;Takasaki&quot;,&quot;Tartan&quot;,&quot;Tata&quot;,&quot;Tatu&quot;,&quot;TCM&quot;,&quot;Tecnomad&quot;,&quot;Terex&quot;,&quot;Thompson&quot;,&quot;Thwaites&quot;,&quot;TM&quot;,&quot;Tohatsu&quot;,&quot;Toyota&quot;,&quot;Trailer&quot;,&quot;Travin&quot;,&quot;Trayers&quot;,&quot;Trek&quot;,&quot;Tremac&quot;,&quot;Triumph&quot;,&quot;TWG Trailer&quot;,&quot;United Motors&quot;,&quot;Universal&quot;,&quot;Ural&quot;,&quot;Utility&quot;,&quot;Valfamaq&quot;,&quot;Valmet&quot;,&quot;Valtra&quot;,&quot;Vento&quot;,&quot;Vermeer&quot;,&quot;Vespa&quot;,&quot;Vicon&quot;,&quot;Volare&quot;,&quot;Volkswagen&quot;,&quot;VOLVO&quot;,&quot;Wabash&quot;,&quot;Wagner&quot;,&quot;Walker Bay&quot;,&quot;Wanch&quot;,&quot;Wangye&quot;,&quot;Wellcraft&quot;,&quot;Westerly&quot;,&quot;Western Star&quot;,&quot;Willys&quot;,&quot;Winnebago&quot;,&quot;Wolken&quot;,&quot;Wuhlmaus&quot;,&quot;Wuzhoulong&quot;,&quot;XBH&quot;,&quot;XCMG&quot;,&quot;XGMA&quot;,&quot;XINGYUE&quot;,&quot;Xpress International&quot;,&quot;Yadea&quot;,&quot;Yale&quot;,&quot;Yamaha&quot;,&quot;Yanmar&quot;,&quot;Yingang&quot;,&quot;Yinxiang&quot;,&quot;Yomel&quot;,&quot;Yougman&quot;,&quot;Youyi&quot;,&quot;YTO&quot;,&quot;Yuchai&quot;,&quot;Yuejin&quot;,&quot;Yutong&quot;,&quot;Zastava&quot;,&quot;Zero&quot;,&quot;Zetor&quot;,&quot;Zhongtong&quot;,&quot;ZNA&quot;,&quot;Znen Group&quot;,&quot;Zodiac&quot;,&quot;Zongshen&quot;,&quot;ZOTYE&quot;,&quot;ZXAuto&quot;)</body>
+          </defaultValue>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_BmOM0JVMEeeyu_ZR04zubg" name="ChileautosBot"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_ObVooJVNEeeyu_ZR04zubg" name="cli">
+      <eAnnotations xmi:id="_ObWPsJVNEeeyu_ZR04zubg" source="uml2.diagrams" references="_ObWPsZVNEeeyu_ZR04zubg">
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_ObWPsZVNEeeyu_ZR04zubg" type="Freeform" name="Main">
+          <children xmi:type="umlnotation:UMLShape" xmi:id="_uI-6kJVXEeeyu_ZR04zubg" element="_QW5WYJVNEeeyu_ZR04zubg" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+            <children xmi:type="notation:DecorationNode" xmi:id="_uI_hoJVXEeeyu_ZR04zubg" type="ImageCompartment">
+              <layoutConstraint xmi:type="notation:Size" xmi:id="_uI_hoZVXEeeyu_ZR04zubg" width="1320" height="1320"/>
+            </children>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_uI_hopVXEeeyu_ZR04zubg" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_uI_ho5VXEeeyu_ZR04zubg" type="Name"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_uI_hpJVXEeeyu_ZR04zubg" type="Parent"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_uI_hpZVXEeeyu_ZR04zubg" type="AttributeCompartment"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_uJAIsJVXEeeyu_ZR04zubg" type="OperationCompartment"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_uJAIsZVXEeeyu_ZR04zubg" visible="false" type="SignalCompartment"/>
+            <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_uJAIspVXEeeyu_ZR04zubg" visible="false" type="StructureCompartment"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uI-6kZVXEeeyu_ZR04zubg" x="5238" y="10133"/>
+          </children>
+          <children xmi:type="umlnotation:UMLShape" xmi:id="_uhW-UJVXEeeyu_ZR04zubg" element="_BmOM0JVMEeeyu_ZR04zubg" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+            <children xmi:type="notation:DecorationNode" xmi:id="_uhXlYJVXEeeyu_ZR04zubg" type="ImageCompartment">
+              <layoutConstraint xmi:type="notation:Size" xmi:id="_uhXlYZVXEeeyu_ZR04zubg" width="1320" height="1320"/>
+            </children>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_uhXlYpVXEeeyu_ZR04zubg" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_uhXlY5VXEeeyu_ZR04zubg" type="Name"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_uhYMcJVXEeeyu_ZR04zubg" type="Parent"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_uhYMcZVXEeeyu_ZR04zubg" type="AttributeCompartment"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_uhYMcpVXEeeyu_ZR04zubg" type="OperationCompartment"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_uhYMc5VXEeeyu_ZR04zubg" visible="false" type="SignalCompartment"/>
+            <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_uhYMdJVXEeeyu_ZR04zubg" visible="false" type="StructureCompartment"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uhW-UZVXEeeyu_ZR04zubg" x="15708" y="10164"/>
+          </children>
+          <element xsi:nil="true"/>
+          <edges xmi:type="umlnotation:UMLConnector" xmi:id="_wky1sJVXEeeyu_ZR04zubg" element="_wkodoJVXEeeyu_ZR04zubg" source="_uI-6kJVXEeeyu_ZR04zubg" target="_uhW-UJVXEeeyu_ZR04zubg" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+            <children xmi:type="notation:DecorationNode" xmi:id="_wky1spVXEeeyu_ZR04zubg" type="NameLabel">
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_wkzcwJVXEeeyu_ZR04zubg" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_wkzcwZVXEeeyu_ZR04zubg" type="Name"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wky1s5VXEeeyu_ZR04zubg" y="-186"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_wkzcwpVXEeeyu_ZR04zubg" type="ToMultiplicityLabel" element="_wksIAJVXEeeyu_ZR04zubg">
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_wk0D0JVXEeeyu_ZR04zubg" type="ToMultiplicity"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_wkzcw5VXEeeyu_ZR04zubg" y="396"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_wk48UJVXEeeyu_ZR04zubg" type="ToRoleLabel" element="_wksIAJVXEeeyu_ZR04zubg">
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_wk5jYJVXEeeyu_ZR04zubg" type="ToRole"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_wk48UZVXEeeyu_ZR04zubg" y="-397"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_wk5jYZVXEeeyu_ZR04zubg" type="FromMultiplicityLabel" element="_wkprwJVXEeeyu_ZR04zubg">
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_wk5jY5VXEeeyu_ZR04zubg" type="FromMultiplicity"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_wk5jYpVXEeeyu_ZR04zubg" y="396"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_wk5jZJVXEeeyu_ZR04zubg" type="FromRoleLabel" element="_wkprwJVXEeeyu_ZR04zubg">
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_wk6KcJVXEeeyu_ZR04zubg" type="FromRole"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_wk5jZZVXEeeyu_ZR04zubg" y="-397"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_wk6KcZVXEeeyu_ZR04zubg" type="ToQualifierLabel" element="_wksIAJVXEeeyu_ZR04zubg">
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_wk6Kc5VXEeeyu_ZR04zubg" type="QualifierCompartment"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_wk6KcpVXEeeyu_ZR04zubg" y="-186"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_wk6KdJVXEeeyu_ZR04zubg" type="FromQualifierLabel" element="_wkprwJVXEeeyu_ZR04zubg">
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_wk6xgJVXEeeyu_ZR04zubg" type="QualifierCompartment"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_wk6KdZVXEeeyu_ZR04zubg" y="-186"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_wk6xgZVXEeeyu_ZR04zubg" type="ToConstraintLabel" element="_wksIAJVXEeeyu_ZR04zubg">
+              <children xmi:type="notation:ListCompartment" xmi:id="_wk6xg5VXEeeyu_ZR04zubg" type="ToConstraintCompartment"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_wk6xgpVXEeeyu_ZR04zubg" y="1058"/>
+            </children>
+            <children xmi:type="notation:DecorationNode" xmi:id="_wk6xhJVXEeeyu_ZR04zubg" type="FromConstraintLabel" element="_wkprwJVXEeeyu_ZR04zubg">
+              <children xmi:type="notation:ListCompartment" xmi:id="_wk7YkJVXEeeyu_ZR04zubg" type="FromConstraintCompartment"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_wk6xhZVXEeeyu_ZR04zubg" y="1058"/>
+            </children>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_wky1sZVXEeeyu_ZR04zubg" points="[64, 8, -326, 6]$[332, 8, -58, 6]"/>
+          </edges>
+        </contents>
+      </eAnnotations>
+      <packagedElement xmi:type="uml:Class" xmi:id="_QW5WYJVNEeeyu_ZR04zubg" name="ChileautosBotCli">
+        <ownedAttribute xmi:id="_wkprwJVXEeeyu_ZR04zubg" name="bot" visibility="private" type="_BmOM0JVMEeeyu_ZR04zubg" association="_wkodoJVXEeeyu_ZR04zubg">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wkrg8ZVXEeeyu_ZR04zubg" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wkrg8JVXEeeyu_ZR04zubg" value="1"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_wkodoJVXEeeyu_ZR04zubg" memberEnd="_wkprwJVXEeeyu_ZR04zubg _wksIAJVXEeeyu_ZR04zubg">
+        <ownedEnd xmi:id="_wksIAJVXEeeyu_ZR04zubg" name="" visibility="private" type="_QW5WYJVNEeeyu_ZR04zubg" association="_wkodoJVXEeeyu_ZR04zubg">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wksvEZVXEeeyu_ZR04zubg" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wksvEJVXEeeyu_ZR04zubg"/>
+        </ownedEnd>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_DnDiEZNdEeeyu_ZR04zubg">
+      <eAnnotations xmi:id="_DnDiEpNdEeeyu_ZR04zubg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+    <profileApplication xmi:id="_DnDiE5NdEeeyu_ZR04zubg">
+      <eAnnotations xmi:id="_DnDiFJNdEeeyu_ZR04zubg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UML2_MSL_PROFILES/Default.epx#_fNwoAAqoEd6-N_NOT9vsCA?Default/Default?"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UML2_MSL_PROFILES/Default.epx#_a_S3wNWLEdiy4IqP8whjFA?Default?"/>
+    </profileApplication>
+    <profileApplication xmi:id="_DnDiFZNdEeeyu_ZR04zubg">
+      <eAnnotations xmi:id="_DnDiFpNdEeeyu_ZR04zubg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_4OVBUD0TEeKt-L0gyEptgQ?Deployment/Deployment?"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_vjbuwOvHEdiDX5bji0iVSA?Deployment?"/>
+    </profileApplication>
+    <profileApplication xmi:id="__MMjgJNgEeeyu_ZR04zubg">
+      <eAnnotations xmi:id="__MMjgZNgEeeyu_ZR04zubg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://TRANSFORM_JAVA5_PROFILES/JavaTransformProfile.epx#_znahgE3YEd-tPpJR7OP4Bg?JavaTransformation5.0/JavaTransformation50?"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://TRANSFORM_JAVA5_PROFILES/JavaTransformProfile.epx#_TQfqgOcaEdi4LptNXGi2fQ?JavaTransformation5.0?"/>
+    </profileApplication>
+  </uml:Package>
+  <JavaTransformation50:JavaCollection2 xmi:id="__8bGkJNgEeeyu_ZR04zubg" collectionType="java.util.List" base_TypedElement="__MRcAJNgEeeyu_ZR04zubg"/>
+  <JavaTransformation50:JavaCollection2 xmi:id="__8cUsJNgEeeyu_ZR04zubg" collectionType="java.util.List" base_TypedElement="__MT4QJNgEeeyu_ZR04zubg"/>
+  <JavaTransformation50:JavaCollection2 xmi:id="__8di0JNgEeeyu_ZR04zubg" collectionType="java.util.List" base_TypedElement="__MW7kZNgEeeyu_ZR04zubg"/>
+  <JavaTransformation50:JavaCollection2 xmi:id="__8ew8JNgEeeyu_ZR04zubg" collectionType="java.util.List" base_TypedElement="__MVGYZNgEeeyu_ZR04zubg"/>
+  <JavaTransformation50:JavaCollection2 xmi:id="__8f_EJNgEeeyu_ZR04zubg" collectionType="java.util.List" base_TypedElement="__MJgMZNgEeeyu_ZR04zubg"/>
+</xmi:XMI>

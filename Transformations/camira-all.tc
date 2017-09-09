@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><TransformationConfiguration forwardTransformation="com.ibm.xtools.transform.composite" version="8.0.0">
+<!--xtools2_universal_type_manager-->
+<!--Rational Software Architect Designer 9.6.1-->
+<Property id="CONTEXT_SOURCE" value="@49,60@com.ibm.xtools.transform.core.metatype.Collectioncamira-base-bot.tc (Forward), camira-chileautos.tc (Forward)java.util.ArrayList,143,147&lt;ELEM_START&gt;@65,28@com.ibm.xtools.transform.composite.metatype.NestedTransformConfigcamira-base-bot.tc (Forward)F/camira/Transformations/camira-base-bot.tc,@65,30@com.ibm.xtools.transform.composite.metatype.NestedTransformConfigcamira-chileautos.tc (Forward)F/camira/Transformations/camira-chileautos.tc"/>
+<Property id="DCMP" value="@43,10@com.ibm.xtools.transform.core.metatype.DCMPConceptual1"/>
+<Property id="FORWARD_TRANSFORMATION_EXTENSIONS_STATUS" value="@42,0@com.ibm.xtools.transform.core.metatype.Mapjava.util.HashMap&lt;ELEM_START&gt;"/>
+</TransformationConfiguration>
